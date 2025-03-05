@@ -37,9 +37,6 @@ Antes de iniciar, certifique-se de ter instalado:
    terraform apply -auto-approve
    ```
 5. **Acesse a instância EC2 e verifique o Nginx**
-   ```sh
-   curl http://<IP_PÚBLICO_DA_EC2>
-   ```
 
 ## 📖 Referências
 - [Documentação Terraform](https://developer.hashicorp.com/terraform/docs)
