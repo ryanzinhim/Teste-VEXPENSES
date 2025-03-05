@@ -16,7 +16,7 @@ Este repositório contém a solução para o **Desafio de Estágio em DevOps da 
 Antes de iniciar, certifique-se de ter instalado:
 - [Terraform](https://developer.hashicorp.com/terraform/downloads)
 - [AWS CLI](https://aws.amazon.com/cli/)
-- Conta AWS configurada (com `aws configure`)
+- Conta AWS configurada (com `aws configure` e credenciais no env)
 
 ## 🚀 **Como Executar o Projeto**
 1. **Clone o repositório**
