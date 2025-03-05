@@ -1,14 +1,11 @@
 # Desafio de Estágio em DevOps - VExpenses
 
 ## 📌 Descrição do Projeto
-
 Este repositório contém a solução para o **Desafio de Estágio em DevOps da VExpenses**. O desafio consiste na utilização de **Terraform** para provisionamento de infraestrutura na AWS, incluindo melhorias de segurança e automação da instalação do servidor **Nginx**.
 
 ## 📁 Estrutura do Repositório
-
-- `README.md` → Este arquivo principal, com instruções gerais.
-- `README.TASK1.md` → Análise técnica do **código Terraform original**.
-- `README.TASK2.md` → Explicação das **modificações** e melhorias implementadas.
+- [`README.TASK1.md`](./README.TASK1.md) → Análise técnica do **código Terraform original**.
+- [`README.TASK2.md`](./README.TASK2.md) → Explicação das **modificações** e melhorias implementadas.
 - `main.tf` → Arquivo Terraform modificado.
 - `variables.tf` → Definição de variáveis.
 - `outputs.tf` → Saídas do Terraform.
@@ -17,15 +14,12 @@ Este repositório contém a solução para o **Desafio de Estágio em DevOps da 
 - `Network_Resources.tf` → Configuração da rede AWS.
 
 ## ⚙️ **Requisitos**
-
 Antes de iniciar, certifique-se de ter instalado:
-
 - [Terraform](https://developer.hashicorp.com/terraform/downloads)
 - [AWS CLI](https://aws.amazon.com/cli/)
 - Conta AWS configurada (com `aws configure`)
 
 ## 🚀 **Como Executar o Projeto**
-
 1. **Clone o repositório**
    ```sh
    git clone https://github.com/ryanzinhim/Teste-VEXPENSES.git
@@ -49,7 +43,6 @@ Antes de iniciar, certifique-se de ter instalado:
    ```
 
 ## 📖 Referências
-
 - [Documentação Terraform](https://developer.hashicorp.com/terraform/docs)
 - [Documentação AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
 
