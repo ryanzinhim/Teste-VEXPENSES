@@ -1,25 +1,23 @@
-# Provider Configuration
-# Specifies the AWS provider and region
+# Configuração do Provider AWS
+# Define a região padrão para implantação dos recursos
 provider "aws" {
-  region = var.region # Use a variable for more flexibility
+  region = var.region # Permite flexibilidade na escolha da região
 }
 
-# Specify required providers and version constraints
+# Configurações de Providers e Restrições de Versão
 terraform {
   required_providers {
+    # Provider AWS com restrição de versão
+    # ~> 5.0 significa usar a versão mais recente da série 5.x
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 5.0" # Use latest 5.x version
+      version = "~> 5.0"
     }
+    # Provider TLS para geração de chaves
     tls = {
       source  = "hashicorp/tls"
       version = "~> 4.0"
     }
   }
-  # Optional: Configure backend for state management
-  # backend "s3" {
-  #   bucket = "your-terraform-state-bucket"
-  #   key    = "vexpenses/terraform.tfstate"
-  #   region = "us-east-1"
-  # }
+  #subindo de novo pq deu erro
 }
