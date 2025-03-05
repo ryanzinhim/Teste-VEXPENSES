@@ -6,7 +6,6 @@ Este repositório contém a solução para o **Desafio de Estágio em DevOps da 
 ## 📁 Estrutura do Repositório
 - [`README.TASK1.md`](./README.TASK1.md) → Análise técnica do **código Terraform original**.
 - [`README.TASK2.md`](./README.TASK2.md) → Explicação das **modificações** e melhorias implementadas.
-- `main.tf` → Arquivo Terraform modificado.
 - `variables.tf` → Definição de variáveis.
 - `outputs.tf` → Saídas do Terraform.
 - `Security_Group.tf` → Configuração do Grupo de Segurança AWS.
