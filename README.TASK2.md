@@ -98,10 +98,9 @@ Implementar melhorias de segurança, automação e eficiência no código Terraf
 - ✅ Automação de instalação
 - ✅ Documentação técnica
 
-### Próximos Passos Recomendados
+### Próximos Passos que eu faria pensando em escalabilidade de projeto
 - Implementar backup
-- Configurar monitoramento avançado
-- Adicionar camadas de segurança de rede
+- Modular de forma que cada serviço pudesse ser testado de forma individual
 - Implementar pipeline de CI/CD
 
 ## Conclusão
